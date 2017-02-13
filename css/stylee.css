@@ -1,0 +1,101 @@
+/*this is my main styling page*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 1em/1.5;
+  color: #184f68;
+	background-color:#F2F4F4 ;
+	background-size:cover;
+	margin:10px;
+}
+
+
+
+h1 {
+	font-size: 2.5em;
+	margin: 0;
+	color:#85929E ;
+	font-family:oblique;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*page style*/
+
+#select-iten{
+box-shadow:4px 4Px 2px rgba(0,0,0,.2);
+background-color:#F8F9F9;
+background-size:cover;
+margin:auto;
+padding:10% 10%;
+border:1px solid #D6DBDF;
+line-height:2;
+width:90%;
+height:90%;
+}
+#head_main{
+box-shadow:4px 4Px 2px rgba(0,0,0,.2);
+background-color:#F8F9F9 ;
+background-size:cover;
+margin:auto;
+padding:2% 2%;
+border:1px solid #D6DBDF  ;
+line-height:1.5;
+width:90%;
+height:90%;  
+}
+
+/*link visited or unvisited*/
+a:link{
+color:#85929E  ;
+}
+a:visited{
+color:#85929E  ;
+}
+a:hover{
+color:#AEB6BF  ;
+}
+a:active{
+color:#85929E  ;
+}
+a:focus{
+color:#85929E  ;
+background-color:#accbd9;
+}
+/*----------*/
+li{
+list-style-image:url("../vdo3.jpg");
+border:1px solid #F8F9F9 ;
+list-style-position:inside;
+font-size:1.2em;
+background:#F2F4F4 ;
+    margin: 5px;
+}
+#list-item{
+
+}
+.header{
+background-color:#F2F4F4   ;
+border:1px solid #F8F9F9 ;
+
+}
+
+
+/*  Media Queries */
+
+@media (min-width: 0) and (max-width: 679px) {
+	header {
+		padding: 2em 0;
+	}
+	
+
+@media (min-width: 680px) {
+	header {
+		padding: 4.65em 0 2.5em;
+	}
+	
